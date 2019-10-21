@@ -1,6 +1,6 @@
-package cn.tekin.springboot01.mapper;
+package cn.tekin.springboot01.cache.mapper;
 
-import cn.tekin.springboot01.bean.Department;
+import cn.tekin.springboot01.cache.bean.Department;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Select;
  * @Create 2019-10-20 21:48
  */
 @Mapper
-public interface DepartmentMaper {
+public interface DepartmentMapper {
 
     @Select("SELECT * FROM department where id=#{id}")
     public Department getDeptById(Integer id);

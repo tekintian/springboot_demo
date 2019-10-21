@@ -1,4 +1,4 @@
-package cn.tekin.springboot01.bean;
+package cn.tekin.springboot01.cache.bean;
 
 import java.io.Serializable;
 
